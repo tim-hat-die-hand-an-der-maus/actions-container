@@ -31,21 +31,18 @@ jobs:
 
 Build a container image using Docker and optionally publish it to the repo's container registry.
 
-The current commit's SHA-digest is passed to the build as a build-arg called `APP_VERSION`.
-
 **Inputs:**
 
-| Name       | Required |            Default            |                Example                 | Description                                                    |
-|:-----------|:--------:|:-----------------------------:|:--------------------------------------:|----------------------------------------------------------------|
-| push-image |   yes    |                               |             `true`/`false`             | Whether to push the resulting container image to the registry. |
-| image-name |    no    | The slugified repository name |           `my-cool-project`            | The container image name (without the tag).                    |
-| context    |    no    |        the Git context        | `./subdir`/`{{defaultContext}}:subdir` | See [docker/build-push-action][context].                       |
+| Name       | Required |             Default              |                Example                 | Description                                                                                                                      |
+|:-----------|:--------:|:--------------------------------:|:--------------------------------------:|----------------------------------------------------------------------------------------------------------------------------------|
+| push-image |   yes    |                                  |             `true`/`false`             | Whether to push the resulting container image to the registry.                                                                   |
+| image-name |    no    |  The slugified repository name   |           `my-cool-project`            | The container image name (without the tag).                                                                                      |
+| version    |    no    | The current commit's SHA1 digest |                `1.2.3`                 | The app version. This is used as the container image tag, and is passed an `APP_VERSION` build-arg to the container image build. |
+| context    |    no    |         the Git context          | `./subdir`/`{{defaultContext}}:subdir` | See [docker/build-push-action][context].                                                                                         |
 
 ### clean
 
 Build a container image using Docker and optionally publish it to the repo's container registry.
-
-The current commit's SHA-digest is passed to the build as a build-arg called `APP_VERSION`.
 
 **Inputs:**
 

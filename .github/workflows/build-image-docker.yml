@@ -10,6 +10,9 @@ on:
       image-name:
         type: string
         required: false
+      version:
+        type: string
+        required: false
 
 jobs:
   build:
@@ -29,6 +32,6 @@ jobs:
         with:
           push: ${{ inputs.push-image }}
           build-args: |
-            APP_VERSION=${{ github.sha }}
+            APP_VERSION=${{ inputs.version || github.sha }}
           context: ${{ inputs.context }}
-          tags: 'ghcr.io/${{ env.GITHUB_REPOSITORY_OWNER_PART_SLUG }}/${{ inputs.image-name || env.GITHUB_REPOSITORY_NAME_PART_SLUG }}:${{ github.sha }}'
+          tags: 'ghcr.io/${{ env.GITHUB_REPOSITORY_OWNER_PART_SLUG }}/${{ inputs.image-name || env.GITHUB_REPOSITORY_NAME_PART_SLUG }}:${{ inputs.version || github.sha }}'
