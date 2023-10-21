@@ -8,7 +8,6 @@ on:
 jobs:
   build-container-image:
     runs-on: ubuntu-latest
-    if: success() && github.ref_name == github.event.repository.default_branch
     steps:
       - name: Inject slug/short variables
         uses: rlespinasse/github-slug-action@v4
