@@ -48,7 +48,10 @@ The current commit's SHA-digest is passed to the build as a build-arg called `AP
 
 **Inputs:**
 
-| Name                 | Required |            Default            |      Example      | Description                                 |
-|:---------------------|:--------:|:-----------------------------:|:-----------------:|---------------------------------------------|
-| image-name           |    no    | The slugified repository name | `my-cool-project` | The container image name (without the tag)  |
-| min-versions-to-keep |    no    |             `10`              |                   | The number of most recent versions to keep. |
+| Name                 | Required |            Default            |      Example      | Description                                   |
+|:---------------------|:--------:|:-----------------------------:|:-----------------:|-----------------------------------------------|
+| image-name           |    no    | The slugified repository name | `my-cool-project` | The container image name (without the tag)    |
+| min-versions-to-keep |    no    |             `10`              |                   | The number of most recent versions to keep.   |
+| continue-on-error    |    no    |            `true`             |  `true`/`false`   | See [GitHub Actions docs][continue-on-error]. |
+
+[continue-on-error]: https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#jobsjob_idcontinue-on-error
