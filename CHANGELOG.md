@@ -1,3 +1,9 @@
+## v2.3.0 (2023-10-21)
+
+### Feat
+
+- Add continue-on-error input for clean action
+
 ## v2.2.0 (2023-10-21)
 
 ### Feat
