@@ -35,6 +35,7 @@ The current commit's SHA-digest is passed to the build as a build-arg called `AP
 
 **Inputs:**
 
-| Name       | Required | Default |    Example     | Description                                                    |
-|:-----------|:--------:|:-------:|:--------------:|----------------------------------------------------------------|
-| push-image |   yes    |         | `true`/`false` | Whether to push the resulting container image to the registry. |
+| Name       | Required |            Default            |                  Example                   | Description                                                    |
+|:-----------|:--------:|:-----------------------------:|:------------------------------------------:|----------------------------------------------------------------|
+| push-image |   yes    |                               |               `true`/`false`               | Whether to push the resulting container image to the registry. |
+| image-name |    no    | The slugified repository name | The container image name (without the tag) |
