@@ -1,3 +1,9 @@
+## v2.1.0 (2023-10-21)
+
+### Feat
+
+- Accept image-name input for build-image-docker
+
 ## v2.0.0 (2023-10-21)
 
 ### BREAKING CHANGE
