@@ -1,3 +1,9 @@
+## v2.5.1 (2023-10-21)
+
+### Fix
+
+- Respect image-name input in clean job
+
 ## v2.5.0 (2023-10-21)
 
 ### Feat
