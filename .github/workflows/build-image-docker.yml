@@ -1,6 +1,9 @@
 on:
   workflow_call:
     inputs:
+      context:
+        type: string
+        required: false
       push-image:
         type: boolean
         required: true
@@ -27,4 +30,5 @@ jobs:
           push: ${{ inputs.push-image }}
           build-args: |
             APP_VERSION=${{ github.sha }}
+          context: ${{ inputs.context }}
           tags: 'ghcr.io/${{ env.GITHUB_REPOSITORY_OWNER_PART_SLUG }}/${{ inputs.image-name || env.GITHUB_REPOSITORY_NAME_PART_SLUG }}:${{ github.sha }}'
