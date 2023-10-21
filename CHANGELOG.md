@@ -1,3 +1,13 @@
+## v2.5.0 (2023-10-21)
+
+### Feat
+
+- Allow setting a custom version
+
+### Fix
+
+- Set up buildx in docker build job
+
 ## v2.4.0 (2023-10-21)
 
 ### Feat
