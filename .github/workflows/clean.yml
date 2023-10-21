@@ -22,6 +22,6 @@ jobs:
       - name: Clean up old app container images
         uses: actions/delete-package-versions@v4
         with:
-          package-name: ${{ env.image-name || env.GITHUB_REPOSITORY_NAME_PART_SLUG }}
+          package-name: ${{ inputs.image-name || env.GITHUB_REPOSITORY_NAME_PART_SLUG }}
           package-type: container
           min-versions-to-keep: ${{ inputs.min-versions-to-keep }}
