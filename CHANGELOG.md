@@ -1,3 +1,9 @@
+## v2.4.0 (2023-10-21)
+
+### Feat
+
+- Allow setting a custom build context
+
 ## v2.3.2 (2023-10-21)
 
 ### Fix
