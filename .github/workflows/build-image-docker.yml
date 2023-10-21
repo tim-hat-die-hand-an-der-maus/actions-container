@@ -27,4 +27,4 @@ jobs:
           push: ${{ inputs.push-image }}
           build-args: |
             APP_VERSION=${{ github.sha }}
-          tags: "ghcr.io/${{ inputs.image-name env.GITHUB_REPOSITORY_OWNER_PART_SLUG }}/${{ inputs.image-name || env.GITHUB_REPOSITORY_NAME_PART_SLUG }}:${{ github.sha }}"
+          tags: 'ghcr.io/${{ inputs.image-name env.GITHUB_REPOSITORY_OWNER_PART_SLUG }}/${{ inputs.image-name || env.GITHUB_REPOSITORY_NAME_PART_SLUG }}:${{ github.sha }}'
