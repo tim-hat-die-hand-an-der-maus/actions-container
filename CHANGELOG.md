@@ -1,3 +1,9 @@
+## v2.3.2 (2023-10-21)
+
+### Fix
+
+- Remove typo in build tags expression
+
 ## v2.3.1 (2023-10-21)
 
 ### Fix
