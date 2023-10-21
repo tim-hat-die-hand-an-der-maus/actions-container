@@ -1,3 +1,9 @@
+## v2.3.1 (2023-10-21)
+
+### Fix
+
+- Try using single quotes around tags
+
 ## v2.3.0 (2023-10-21)
 
 ### Feat
