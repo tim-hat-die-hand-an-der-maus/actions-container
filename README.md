@@ -39,3 +39,16 @@ The current commit's SHA-digest is passed to the build as a build-arg called `AP
 |:-----------|:--------:|:-----------------------------:|:------------------------------------------:|----------------------------------------------------------------|
 | push-image |   yes    |                               |               `true`/`false`               | Whether to push the resulting container image to the registry. |
 | image-name |    no    | The slugified repository name | The container image name (without the tag) |
+
+### clean
+
+Build a container image using Docker and optionally publish it to the repo's container registry.
+
+The current commit's SHA-digest is passed to the build as a build-arg called `APP_VERSION`.
+
+**Inputs:**
+
+| Name                 | Required |            Default            |      Example      | Description                                 |
+|:---------------------|:--------:|:-----------------------------:|:-----------------:|---------------------------------------------|
+| image-name           |    no    | The slugified repository name | `my-cool-project` | The container image name (without the tag)  |
+| min-versions-to-keep |    no    |             `10`              |                   | The number of most recent versions to keep. |
