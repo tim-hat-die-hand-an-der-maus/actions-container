@@ -1,3 +1,10 @@
+## v2.6.0 (2023-11-06)
+
+### Feat
+
+- Add input to specify additional build args
+- Add input for target stage
+
 ## v2.5.1 (2023-10-21)
 
 ### Fix
