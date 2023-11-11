@@ -1,3 +1,9 @@
+## v3.0.1 (2023-11-11)
+
+### Fix
+
+- Build image with correct platform if non-amd64 is set
+
 ## v3.0.0 (2023-11-11)
 
 ### BREAKING CHANGE
