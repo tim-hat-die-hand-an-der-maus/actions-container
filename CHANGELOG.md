@@ -1,3 +1,17 @@
+## v3.0.0 (2023-11-11)
+
+### BREAKING CHANGE
+
+- If you relied on the provenance metadata manifest,
+this will break your build, because it disables the creation of that.
+
+### Feat
+
+- Add workflow to join multiple images into one
+- Add option to store digests as artifact
+- Provide image digest as build output
+- Add possiblity to specify platform for build-image-docker
+
 ## v2.6.0 (2023-11-06)
 
 ### Feat
