@@ -1,3 +1,9 @@
+## v3.0.3 (2023-11-11)
+
+### Fix
+
+- Don't require platform input
+
 ## v3.0.2 (2023-11-11)
 
 ### Fix
