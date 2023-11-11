@@ -1,3 +1,9 @@
+## v3.0.2 (2023-11-11)
+
+### Fix
+
+- Only set up QEMU for targeted platform
+
 ## v3.0.1 (2023-11-11)
 
 ### Fix
