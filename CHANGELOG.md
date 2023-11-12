@@ -1,3 +1,9 @@
+## v3.1.0 (2023-11-12)
+
+### Feat
+
+- Add build workflow using kaniko
+
 ## v3.0.4 (2023-11-12)
 
 ### Fix
