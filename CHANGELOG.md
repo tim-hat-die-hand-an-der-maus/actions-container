@@ -1,3 +1,9 @@
+## v3.0.4 (2023-11-12)
+
+### Fix
+
+- **build-image-docker**: Check out repo if git context is not used
+
 ## v3.0.3 (2023-11-11)
 
 ### Fix
