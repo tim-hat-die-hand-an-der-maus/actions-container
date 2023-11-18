@@ -1,3 +1,9 @@
+## v3.2.0 (2023-11-18)
+
+### Feat
+
+- Add image name and tag as outputs
+
 ## v3.1.0 (2023-11-12)
 
 ### Feat
