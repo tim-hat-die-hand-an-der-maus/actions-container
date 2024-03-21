@@ -1,3 +1,9 @@
+## v3.3.0 (2024-03-21)
+
+### Feat
+
+- Add containerfile param to build actions
+
 ## v3.2.0 (2023-11-18)
 
 ### Feat
