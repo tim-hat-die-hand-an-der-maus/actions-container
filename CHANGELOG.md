@@ -1,3 +1,9 @@
+## v3.4.0 (2024-05-26)
+
+### Feat
+
+- Bump version on kaniko updates
+
 ## v3.3.0 (2024-03-21)
 
 ### Feat
