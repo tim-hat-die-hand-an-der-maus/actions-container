@@ -1,3 +1,9 @@
+## v3.5.0 (2024-05-26)
+
+### Feat
+
+- Add timeout-minutes input
+
 ## v3.4.0 (2024-05-26)
 
 ### Feat
