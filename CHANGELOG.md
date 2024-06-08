@@ -1,3 +1,9 @@
+## v3.5.1 (2024-06-08)
+
+### Fix
+
+- **deps**: update gcr.io/kaniko-project/executor docker tag to v1.23.1
+
 ## v3.5.0 (2024-05-26)
 
 ### Feat
