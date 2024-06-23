@@ -1,3 +1,9 @@
+## v3.7.0 (2024-06-23)
+
+### Feat
+
+- **deps**: update artifact actions to v4
+
 ## v3.6.0 (2024-06-23)
 
 ### Feat
