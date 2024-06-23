@@ -1,3 +1,9 @@
+## v3.6.0 (2024-06-23)
+
+### Feat
+
+- Add option to generate Docker build summary
+
 ## v3.5.1 (2024-06-08)
 
 ### Fix
