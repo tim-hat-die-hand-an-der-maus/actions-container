@@ -1,3 +1,9 @@
+## v3.7.1 (2024-06-28)
+
+### Fix
+
+- **build-image-kaniko**: Remove unwanted quotes from APP_VERSION build arg
+
 ## v3.7.0 (2024-06-23)
 
 ### Feat
