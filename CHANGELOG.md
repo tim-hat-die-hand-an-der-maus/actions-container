@@ -1,3 +1,9 @@
+## v3.7.2 (2024-06-30)
+
+### Fix
+
+- Correctly authenticate for private source contexts
+
 ## v3.7.1 (2024-06-28)
 
 ### Fix
