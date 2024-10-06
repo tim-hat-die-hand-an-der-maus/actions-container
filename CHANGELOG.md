@@ -1,3 +1,9 @@
+## v3.7.4 (2024-10-06)
+
+### Fix
+
+- **deps**: update dependency pre-commit to v4
+
 ## v3.7.3 (2024-08-29)
 
 ### Fix
