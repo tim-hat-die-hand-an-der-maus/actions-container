@@ -1,3 +1,9 @@
+## v4.0.0 (2024-11-22)
+
+### Feat
+
+- **deps**: Update rlespinasse/github-slug-action action to v5
+
 ## v3.7.4 (2024-10-06)
 
 ### Fix
