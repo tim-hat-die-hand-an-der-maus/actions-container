@@ -1,3 +1,9 @@
+## v4.0.1 (2024-11-24)
+
+### Fix
+
+- Replace deprecated DOCKER_NO_BUILD_SUMMARY arg
+
 ## v4.0.0 (2024-11-22)
 
 ### Feat
