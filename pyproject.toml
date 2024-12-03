@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "actions-container"
 description = "GitHub Actions Workflows for containers"
-version = "4.0.1"
+version = "4.1.0"
 authors = ["BlindfoldedSurgery <team@blindfolded.surgery>"]
 license = "MIT"
 readme = "README.md"
