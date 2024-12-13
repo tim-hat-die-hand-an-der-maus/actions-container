@@ -1,3 +1,9 @@
+## v5.0.0 (2024-12-13)
+
+### Feat
+
+- Enable kaniko cache by default
+
 ## v4.2.2 (2024-12-13)
 
 ### Fix
