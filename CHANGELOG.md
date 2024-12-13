@@ -1,3 +1,9 @@
+## v5.0.1 (2024-12-13)
+
+### Fix
+
+- Cleanup bump PRs correctly
+
 ## v5.0.0 (2024-12-13)
 
 ### Feat
