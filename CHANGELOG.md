@@ -1,3 +1,9 @@
+## v4.2.1 (2024-12-13)
+
+### Fix
+
+- Don't push cache if no-push is true
+
 ## v4.2.0 (2024-12-13)
 
 ### Feat
