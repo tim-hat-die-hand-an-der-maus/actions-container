@@ -1,3 +1,9 @@
+## v4.2.0 (2024-12-13)
+
+### Feat
+
+- Add option to enable caching
+
 ## v4.1.0 (2024-12-03)
 
 ### Feat
