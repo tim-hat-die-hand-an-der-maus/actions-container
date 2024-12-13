@@ -1,3 +1,9 @@
+## v4.2.2 (2024-12-13)
+
+### Fix
+
+- Don't skip push permission check
+
 ## v4.2.1 (2024-12-13)
 
 ### Fix
