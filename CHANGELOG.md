@@ -1,3 +1,9 @@
+## v5.1.0 (2024-12-27)
+
+### Feat
+
+- Add prebuilt dual arch workflow
+
 ## v5.0.1 (2024-12-13)
 
 ### Fix
