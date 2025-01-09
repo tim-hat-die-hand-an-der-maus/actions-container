@@ -1,0 +1,17 @@
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+  push:
+    branches:
+      - main
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.WORKFLOW_TOKEN }}
+      - run: git remote add mirrored https://github.com/BlindfoldedSurgery/actions-container.git
+      - run: git fetch mirrored 'refs/tags/*:refs/tags/*'
+      - run: git push origin --tags --force

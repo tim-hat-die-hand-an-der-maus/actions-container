@@ -1,0 +1,10 @@
+on:
+  pull_request: {}
+
+jobs:
+  required-meta:
+    permissions:
+      contents: read
+      pull-requests: write
+      checks: write
+    uses: BlindfoldedSurgery/actions-meta/.github/workflows/required.yml@v1
