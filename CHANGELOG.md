@@ -1,3 +1,9 @@
+## v5.2.0 (2025-01-09)
+
+### Feat
+
+- **dual-kaniko**: allow custom amd64 runner
+
 ## v5.1.0 (2024-12-27)
 
 ### Feat
