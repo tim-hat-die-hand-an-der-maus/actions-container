@@ -1,3 +1,14 @@
+## v6.0.0 (2025-01-18)
+
+### BREAKING CHANGE
+
+- build-dual-image-kaniko no longer accepts a digest
+artifact name.
+
+### Perf
+
+- Use non-matrix job for dual image build
+
 ## v5.2.0 (2025-01-09)
 
 ### Feat
