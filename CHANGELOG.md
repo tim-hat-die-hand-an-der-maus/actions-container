@@ -1,3 +1,9 @@
+## v7.0.0 (2025-01-31)
+
+### Feat
+
+- use GitHub's own hosted ARM runner
+
 ## v6.0.0 (2025-01-18)
 
 ### BREAKING CHANGE
